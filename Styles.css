@@ -1,0 +1,79 @@
+html{
+    background-color: #2D2626;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+.Opening{
+    width: 100vw;
+    height: 100vh;
+}
+.Column1{
+    margin-left: 2%;
+    width: 40%;
+
+}
+.Column1 h1{
+    margin-top: 2%;
+    font-size: 50px;
+}
+.Column1 p{
+    font-size: 25px;
+    margin-bottom: 20%;
+}
+.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    padding: 2% 5% 2% 5%;
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+    border-radius: 32px;
+    border-style: none;
+    background: linear-gradient(90deg,rgba(197, 0, 229, 0.85)  0%,
+    rgba(255, 0, 122, 0.53)  44.3%,
+    rgba(255, 0, 0, 0.65)  100%);
+}
+.Column2{
+    width: 70%;
+}
+.CardsSection{
+    height: 100vh;
+    width: 100vw;
+}
+.CardR{
+    margin-left: 10%;
+    padding-bottom: 5%;
+    padding-right: 2.5%;
+    width: 25%;
+    background-color: #383636;
+    border: solid 15px;
+    border-image: linear-gradient(90deg,rgba(197, 0, 229, 0.85)  0%,
+    rgba(255, 0, 122, 0.53)  44.3%,
+    rgba(255, 0, 0, 0.65)  100%);
+    border-image-slice: 1;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.CardR h1{
+    margin-left: 2.5%;
+    font-weight: normal;
+}
+.CardR p{
+    margin-left: 2.5%;
+}
+.CardL{
+    margin-left: 60%;
+}
+.section{
+    width: 1100px;
+    margin: 0 auto 0 auto;
+}
