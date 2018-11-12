@@ -24,12 +24,11 @@ body{
 }
 .Column1 p{
     font-size: 25px;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 .button{
     -webkit-appearance: button;
     -moz-appearance: button;
-    appearance: button;
     text-decoration: none;
     padding: 2% 5% 2% 5%;
     color: white;
@@ -49,6 +48,7 @@ body{
     width: 100vw;
 }
 .CardR{
+    margin-top: 5%;
     margin-left: 10%;
     padding-bottom: 5%;
     padding-right: 2.5%;
@@ -74,6 +74,34 @@ body{
     margin-left: 60%;
 }
 .section{
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto 0 auto;
+}
+
+
+@media only screen and (max-width: 950px){
+    .Column1 h1{
+        font-size: 40px;
+    }
+    .Column1 p{
+        font-size: 20px;
+    }
+    .CardR{
+        width: 30%;
+    }
+    .CardR h1{
+
+    }
+}
+@media only screen and (max-width: 700px) {
+    .Column1{
+        width: 95%;
+    }
+    .CardR{
+        width: 90%;
+        margin: 10% auto 0% auto;
+    }
+    .CardL{
+        margin: 10% auto 0% auto;
+    }
 }
